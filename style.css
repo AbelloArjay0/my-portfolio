@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container for the resume */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Style the headings */
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs and lists */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlighted background for sections */
+.section {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style the references section */
+.references {
+    margin-top: 30px;
+    font-style: italic;
+    color: #888;
+}
